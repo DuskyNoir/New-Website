@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Junge;
+    src: url('fonts/Junge-Regular.ttf');
+}
+@font-face {
+    font-family: CormorantGaramond;
+    src: url('fonts/CormorantGaramond-Medium.ttf');
+}
+
+body {
+    margin: 0px;
+    font-family: CormorantGaramond;
+    font-size: 25px;
+    text-align: center;
+}
+header {
+    width: 100%
+}
+
+.topRedHeader {
+    background-color: #e88d8d;
+    width: 100%;
+    height: 20px;
+}
+
+.blueContainer {
+    background-color: #ceecf2;
+    width: 100%;
+    height: 340px;
+}
+
+.topyellowContainer {
+    background-color: #feffc6;
+    width: 400px;
+    height: 330px;
+    margin-top: -340px;
+    text-align: center;
+    font-family: Junge;
+    padding-top: 10px;
+    font-size: 43px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box1 {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    margin-bottom: 60px;
+    font-size: 28px;
+}
+
+.box2 {
+    padding: 20px;
+    background-color: #feffc6;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Junge;
+}
+
+.bottomConnect {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    font-size: 27px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.leftText {
+    background-color: #feffc6;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.middleText {
+    background-color: #feffc6;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.endText {
+    background-color: #feffc6;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 190px;
+}
+
+.box3 {
+    margin-top: -27px;
+    background-color: #feffc6;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Junge;
+    padding: 20px;
+}
+
+.bottomTop {
+    font-size: 27px;
+}
+
+.bottomBottom {
+    font-size: 20px;
+}
+
+.outroText {
+    margin-top: 60px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 28px;
+}
+
+iframe {
+    border: 0px;
+}
